@@ -1,0 +1,51 @@
+Host sys-2001
+    User chengzhengwu
+    HostName 47.95.110.13
+
+Host dev-1000
+    User chengzhengwu
+    HostName 101.200.228.101
+Host hadoop
+    User hadoop
+    HostName 39.96.194.42
+Host ttr_test
+    User IO_TTR_NIELSEN
+    HostName sftp.cn.nielsen.com
+Host ttr_prod
+    User IO_MSY
+    HostName sftp.cn.nielsen.com
+
+Host master
+    User hadoop
+    HostName 172.16.33.3
+
+Host slave1
+    User hadoop
+    HostName 172.16.33.4
+
+Host slave2
+    User hadoop
+    HostName 172.16.33.5
+
+Host newton 
+    User hadoop
+    HostName 119.45.202.25
+    Port 25412
+
+Host lavois
+    User hadoop
+    HostName 119.45.199.173
+    Port 25412
+Host darwin
+    User hadoop
+    HostName 119.45.204.9
+    Port 25412
+
+Host tian
+    User ubuntu
+    HostName 119.45.137.84
+
+
+
+Host *
+    ServerAliveInterval 60
