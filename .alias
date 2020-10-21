@@ -1,0 +1,38 @@
+alias ll='ls -l'
+
+
+# tmux alias
+alias mux='tmux'
+alias tmks="tmux kill-session -t"
+alias tmkp="tmux kill-pane -t"
+alias tmkw="tmux kill-window -t"
+alias tmkv="tmux kill-server -t"
+alias tmnew="tmux new -t"
+alias tmas="tmux a -t"
+
+
+
+# supervisor
+alias suv="supervisorctl"
+
+alias rm="trash"
+
+# screen alias
+alias scns="screen -S"
+alias scna="screen -r"
+alias scnw="screen -ls"
+
+# process
+alias had="hadoop"
+
+# ossutil
+alias oss="ossutilmac64"
+
+#### Linux grep
+alias lgrep="/usr/local/opt/grep/libexec/gnubin/grep"
+alias legrep="/usr/local/opt/grep/libexec/gnubin/egrep"
+alias lfgrep="/usr/local/opt/grep/libexec/gnubin/fgrep"
+
+# baidudisk
+
+alias shadow="suv start shadowsocks"

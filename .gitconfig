@@ -1,0 +1,15 @@
+[alias]
+	st = status
+	cim = commit -m
+	ci = commit
+	ck = checkout
+	br = branch
+	co = checkout
+	di = diff
+[user]
+	name = chengzhengwu
+	email = chengzhengwu@winwin-inc.com
+[http]
+	postBuffer = 524288000
+[core]
+	quotepath = false
